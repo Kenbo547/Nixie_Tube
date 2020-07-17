@@ -1,0 +1,659 @@
+Archive member included to satisfy reference by file (symbol)
+
+f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+                              Nixie Tube.o (__udivmodqi4)
+f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+                              F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o (exit)
+f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+                              Nixie Tube.o (__do_clear_bss)
+f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+                              ds18b20.o (__cmpdi2_s8)
+F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+                              Nixie Tube.o (eeprom_write_byte)
+
+Allocating common symbols
+Common symbol       size              file
+
+Read_Time_Flag      0x1               Nixie Tube.o
+Old_Minute          0x1               Nixie Tube.o
+ChangeModeCounter   0x1               Nixie Tube.o
+Scanning_Counter    0x1               Nixie Tube.o
+Hours               0x1               Nixie Tube.o
+Temp                0x1               Nixie Tube.o
+temp                0x2               Nixie Tube.o
+Old_Seconds         0x1               Nixie Tube.o
+Humidty             0x1               Nixie Tube.o
+minute              0x1               Nixie Tube.o
+Mode                0x1               Nixie Tube.o
+Duration_Counter    0x1               Nixie Tube.o
+Timer_Temp          0x1               Nixie Tube.o
+ChangeModeFlag      0x1               Nixie Tube.o
+seconds             0x1               Nixie Tube.o
+dummy               0x1               Nixie Tube.o
+Time                0x9               Nixie Tube.o
+Change_Voltage      0x1               Nixie Tube.o
+Read_Time_Counter   0x1               Nixie Tube.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ .bss           0x00000000        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ .text          0x00000000        0x0 ds18b20.o
+ .data          0x00000000        0x0 ds18b20.o
+ .bss           0x00000000        0x0 ds18b20.o
+ .text.ds18b20csp
+                0x00000000       0x5a ds18b20.o
+ .text.ds18b20rom
+                0x00000000       0xc6 ds18b20.o
+ .text          0x00000000        0x0 i2c.o
+ .data          0x00000000        0x0 i2c.o
+ .bss           0x00000000        0x0 i2c.o
+ .text          0x00000000        0x0 mcp4017.o
+ .data          0x00000000        0x0 mcp4017.o
+ .bss           0x00000000        0x0 mcp4017.o
+ .text.mcp4017_init
+                0x00000000        0x2 mcp4017.o
+ .text.mcp4017_get_resistance
+                0x00000000        0x2 mcp4017.o
+ .text          0x00000000        0x0 Nixie Tube.o
+ .data          0x00000000        0x0 Nixie Tube.o
+ .bss           0x00000000        0x0 Nixie Tube.o
+ .avr.prop      0x00000000       0x16 Nixie Tube.o
+ .text          0x00000000        0x0 onewire.o
+ .data          0x00000000        0x0 onewire.o
+ .bss           0x00000000        0x0 onewire.o
+ .text          0x00000000        0x0 rtc3231.o
+ .data          0x00000000        0x0 rtc3231.o
+ .bss           0x00000000        0x0 rtc3231.o
+ .text.rtc3231_read_date
+                0x00000000       0x3c rtc3231.o
+ .text.rtc3231_read_datetime
+                0x00000000       0x58 rtc3231.o
+ .text.rtc3231_write_date
+                0x00000000       0x2e rtc3231.o
+ .text          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .data          0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .bss           0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+ .text          0x00000000        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+ .data          0x00000000        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+ .bss           0x00000000        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+LOAD ds18b20.o
+LOAD i2c.o
+LOAD mcp4017.o
+LOAD Nixie Tube.o
+LOAD onewire.o
+LOAD rtc3231.o
+START GROUP
+LOAD f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libm.a
+END GROUP
+START GROUP
+LOAD f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a
+LOAD f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libm.a
+LOAD f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4\libc.a
+LOAD F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                0x00800060                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                0x00002000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xc34
+ *(.vectors)
+ .vectors       0x00000000       0x36 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.Digit_To_Cathode
+                0x00000036       0x14 Nixie Tube.o
+                0x0000004a                . = ALIGN (0x2)
+                0x0000004a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000004a        0x0 linker stubs
+ *(.trampolines*)
+                0x0000004a                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000004a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000004a                __ctors_start = .
+ *(.ctors)
+                0x0000004a                __ctors_end = .
+                0x0000004a                __dtors_start = .
+ *(.dtors)
+                0x0000004a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000004a        0x0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+                0x0000004a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000004a        0xc F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000056       0x10 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_clear_bss.o)
+                0x00000056                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000066        0x4 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ *(.init9)
+ *(.text)
+ .text          0x0000006a        0x2 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+                0x0000006a                __vector_22
+                0x0000006a                __vector_1
+                0x0000006a                __vector_24
+                0x0000006a                __vector_12
+                0x0000006a                __bad_interrupt
+                0x0000006a                __vector_6
+                0x0000006a                __vector_3
+                0x0000006a                __vector_23
+                0x0000006a                __vector_25
+                0x0000006a                __vector_13
+                0x0000006a                __vector_17
+                0x0000006a                __vector_19
+                0x0000006a                __vector_7
+                0x0000006a                __vector_5
+                0x0000006a                __vector_4
+                0x0000006a                __vector_9
+                0x0000006a                __vector_2
+                0x0000006a                __vector_21
+                0x0000006a                __vector_15
+                0x0000006a                __vector_8
+                0x0000006a                __vector_26
+                0x0000006a                __vector_14
+                0x0000006a                __vector_10
+                0x0000006a                __vector_16
+                0x0000006a                __vector_18
+                0x0000006a                __vector_20
+                0x0000006c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.ds18b20crc8
+                0x0000006c       0x28 ds18b20.o
+ .text.ds18b20match
+                0x00000094       0x68 ds18b20.o
+ .text.ds18b20convert
+                0x000000fc       0x4c ds18b20.o
+                0x000000fc                ds18b20convert
+ .text.ds18b20rsp
+                0x00000148       0xa6 ds18b20.o
+                0x00000148                ds18b20rsp
+ .text.ds18b20wsp
+                0x000001ee       0x7c ds18b20.o
+                0x000001ee                ds18b20wsp
+ .text.ds18b20read
+                0x0000026a       0x6a ds18b20.o
+                0x0000026a                ds18b20read
+ .text.i2c_init
+                0x000002d4        0x8 i2c.o
+                0x000002d4                i2c_init
+ .text.i2c_start_condition
+                0x000002dc       0x14 i2c.o
+                0x000002dc                i2c_start_condition
+ .text.i2c_stop_condition
+                0x000002f0        0x8 i2c.o
+                0x000002f0                i2c_stop_condition
+ .text.i2c_send_byte
+                0x000002f8       0x14 i2c.o
+                0x000002f8                i2c_send_byte
+ .text.i2c_send_packet
+                0x0000030c       0x1e i2c.o
+                0x0000030c                i2c_send_packet
+ .text.i2c_recv_byte
+                0x0000032a       0x14 i2c.o
+                0x0000032a                i2c_recv_byte
+ .text.i2c_recv_last_byte
+                0x0000033e       0x14 i2c.o
+                0x0000033e                i2c_recv_last_byte
+ .text.mcp4017_set_resistance
+                0x00000352       0x10 mcp4017.o
+                0x00000352                mcp4017_set_resistance
+ .text.Blanking
+                0x00000362       0x1a Nixie Tube.o
+                0x00000362                Blanking
+ .text.Clear_Cathodes
+                0x0000037c       0x16 Nixie Tube.o
+                0x0000037c                Clear_Cathodes
+ .text.Digit_To_Cathode
+                0x00000392       0x38 Nixie Tube.o
+                0x00000392                Digit_To_Cathode
+ .text.Write_Time
+                0x000003ca       0x16 Nixie Tube.o
+                0x000003ca                Write_Time
+ .text.Read_Temperature
+                0x000003e0       0x72 Nixie Tube.o
+                0x000003e0                Read_Temperature
+ .text.Loop     0x00000452      0x1e6 Nixie Tube.o
+                0x00000452                Loop
+ .text.Read_Time
+                0x00000638       0xa0 Nixie Tube.o
+                0x00000638                Read_Time
+ .text.startup.main
+                0x000006d8       0x9a Nixie Tube.o
+                0x000006d8                main
+ .text.__vector_11
+                0x00000772      0x1e2 Nixie Tube.o
+                0x00000772                __vector_11
+ .text.onewireInit
+                0x00000954       0x78 onewire.o
+                0x00000954                onewireInit
+ .text.onewireWriteBit
+                0x000009cc       0x5c onewire.o
+                0x000009cc                onewireWriteBit
+ .text.onewireWrite
+                0x00000a28       0x60 onewire.o
+                0x00000a28                onewireWrite
+ .text.onewireReadBit
+                0x00000a88       0x4a onewire.o
+                0x00000a88                onewireReadBit
+ .text.onewireRead
+                0x00000ad2       0x64 onewire.o
+                0x00000ad2                onewireRead
+ .text.bcd      0x00000b36       0x1c rtc3231.o
+ .text.bin      0x00000b52       0x28 rtc3231.o
+ .text.rtc3231_init
+                0x00000b7a       0x14 rtc3231.o
+                0x00000b7a                rtc3231_init
+ .text.rtc3231_read_time
+                0x00000b8e       0x2e rtc3231.o
+                0x00000b8e                rtc3231_read_time
+ .text.rtc3231_write_time
+                0x00000bbc       0x28 rtc3231.o
+                0x00000bbc                rtc3231_write_time
+ .text.libgcc.div
+                0x00000be4       0x18 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_udivmodqi4.o)
+                0x00000be4                __udivmodqi4
+ .text.libgcc   0x00000bfc       0x18 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_cmpdi2_s8.o)
+                0x00000bfc                __cmpdi2_s8
+ .text.avr-libc
+                0x00000c14       0x1c F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+                0x00000c14                eeprom_write_byte
+                0x00000c16                eeprom_write_r18
+                0x00000c30                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000c30        0x0 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+                0x00000c30                _exit
+                0x00000c30                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000c30        0x4 f:/atmelstudio7.0/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000c34                _etext = .
+
+.data           0x00800100        0x0 load address 0x00000c34
+                [!provide]                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                [!provide]                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0x1c
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800100       0x1c Nixie Tube.o
+                0x00800100                Read_Time_Flag
+                0x00800101                Old_Minute
+                0x00800102                ChangeModeCounter
+                0x00800103                Scanning_Counter
+                0x00800104                Hours
+                0x00800105                Temp
+                0x00800106                temp
+                0x00800108                Old_Seconds
+                0x00800109                Humidty
+                0x0080010a                minute
+                0x0080010b                Mode
+                0x0080010c                Duration_Counter
+                0x0080010d                Timer_Temp
+                0x0080010e                ChangeModeFlag
+                0x0080010f                seconds
+                0x00800110                dummy
+                0x00800111                Time
+                0x0080011a                Change_Voltage
+                0x0080011b                Read_Time_Counter
+                0x0080011c                PROVIDE (__bss_end, .)
+                0x00000c34                __data_load_start = LOADADDR (.data)
+                0x00000c34                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080011c        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080011c                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x1
+ *(.eeprom*)
+ .eeprom        0x00810000        0x1 Nixie Tube.o
+                0x00810000                EE_Change_Voltage
+                0x00810001                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ds18b20.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 i2c.o
+ .comment       0x00000030       0x31 mcp4017.o
+ .comment       0x00000030       0x31 Nixie Tube.o
+ .comment       0x00000030       0x31 onewire.o
+ .comment       0x00000030       0x31 rtc3231.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x78a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6f0 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ .debug_info    0x000006f0       0x9a F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+
+.debug_abbrev   0x00000000      0x6a4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x690 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ .debug_abbrev  0x00000690       0x14 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+
+.debug_line     0x00000000      0x1d7
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x139 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+ .debug_line    0x00000139       0x9e F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4\libatmega88pb.a(eewr_byte.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x264
+ *(.debug_str)
+ .debug_str     0x00000000      0x264 F:/AtmelStudio7.0/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega88pb/avr4/crtatmega88pb.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Nixie Tube.elf elf32-avr)
+LOAD linker stubs
